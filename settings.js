@@ -20,7 +20,7 @@
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
 creator = '乂Fizz乂' // Nama 
-port = 8080 //port host
+port = 80 //port host
 LimitApikey = 200 // Limit Apikey default
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
