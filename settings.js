@@ -19,7 +19,7 @@ require('dotenv').config()
 
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
-creator = '乂𝘼𝙡𝙞𝙥乂' // Nama 
+creator = '乂Fizz乂' // Nama 
 port = 8080 //port host
 LimitApikey = 200 // Limit Apikey default
 
@@ -35,7 +35,7 @@ servicesmtp = 'Gmail'//Ada gmail ada sendinblue ikut masing2 limit gmail 500 lim
 sendemail = process.env.sendemail //Email SMTP
 fromsendemail = process.env.fromsendemail // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
 sendpwmail = process.env.sendpwmail // Password Email SMTP
-domain = 'alpis.eu.org'// domain website tanpa http or https
+domain = 'aps.navaweb.my.id'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
@@ -50,7 +50,7 @@ apibitly = ['6cfc18e9bfa554714fadc10a1f6aff7555642348','2243940c230ad0d748059aee
 
 //APIKEY RECAPTCHA From https://www.google.com/recaptcha/about/ or https://www.google.com/recaptcha/admin  \\
 recaptcha_key_1 = '6LeZU8YpAAAAAH-MZUj-oxFiqM8g2_ZMdK9AYC99'
-recaptcha_key_2 = process.env.recaptcha_key_2
+recaptcha_key_2 = '6LeZU8YpAAAAAAglDnEufvE7uas29EAVJInXfjzP'
 
 //_______________________ ┏  Loghandler  ┓ _______________________\\
 
